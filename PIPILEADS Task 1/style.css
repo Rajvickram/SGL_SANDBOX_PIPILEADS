@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins&family=Urbanist&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@400;700&family=Poppins&family=Urbanist&display=swap');
+    background: url(/Images/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.2rem 1.5rem;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 1.4rem;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.2rem;
+}
+
+button{
+    width: 7rem;
+    background: #fff;
+    padding: 0.6rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid #0073b0;
+    text-align: center;
+    margin-left: 0.5rem;
+}
+
+/* .menu{
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #0073b0;
+} */
+
+section{
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 42% 35%;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-left: 28rem;
+    padding-right: 2rem;
+    /* margin: 0 auto; */
+    /* height: 35vh; */
+}
+
+.b2b{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    width: 30rem;
+    color: #223260;
+}
+
+.para{
+    margin-top: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    width: 27rem;
+}
+
+.ex-watch-file{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.flex1{
+    display: flex;
+    width: 15rem;
+    height: 7vh;
+    background: #2B7DE9;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imgex{
+    width: 2.5rem;
+}
+
+.text1{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #fff;
+}
+
+.flex2{
+    /* background-color: blueviolet; */
+    display: flex;
+    width: 12rem;
+    height: 7vh;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.imgey{
+    width: 2.7rem;
+}
+
+.text2{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+    color: #000;
+}
+
+
+.right-panel img{
+    width: 27rem;
+}
+
+.content-first{
+    margin-top: 2rem;
+    background-color: #f2f7fd;
+    /* max-height: 650vh; */
+}
+
+.top-content{
+    margin-left: 42rem;
+    padding-left: 1rem;
+    margin-right: 42rem;
+    padding-right: 1rem;
+    
+}
+
+.first-content{
+    width: 25rem;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.second-content{
+    width: 35rem;
+    margin: auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+}
+
+.third-content{
+    width: 35rem;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.gif-img1{
+    width: 40rem;
+    margin: auto;
+    background: #fff;
+    margin-top: 2rem;
+    position: relative;
+    top: 30px;
+    /* overflow: hidden; */
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 37px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.gif-img1 img{
+    border-radius: 20px;
+}
+
+
+.content-second{
+    margin-top: 5rem;
+}
+
+.content-second-para1{
+    
+}

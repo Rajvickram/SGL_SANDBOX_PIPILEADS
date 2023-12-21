@@ -26,6 +26,7 @@ header {
   /* background-color: aqua; */
 }
 
+
 .list-content {
   display: flex;
   list-style-type: none;
@@ -600,13 +601,13 @@ button {
 
 /* Footer Tag Staeting Line */
 
-.container-1{
-  max-width: 55%;
+.container{
+  max-width: 65rem;
   background-color: red;
   margin: auto;
 }
 
-.row-1{
+.row{
   display: flex;
   flex-wrap: wrap;
 }
@@ -615,18 +616,17 @@ ul{
   list-style-type: none;
 }
 
-.footer-1{
+.footer{
   background-color: #000;
   padding: 2rem 0;
-  margin-top: 5rem;
 }
 
-.footer-col-1{
+.footer-col{
   width: 25%;
   padding: 0 1rem;
 }
 
-.footer-col-1 h4{
+.footer-col h4{
   font-size: 1.2rem;
   color: #fff;
   text-transform: capitalize;
@@ -646,11 +646,11 @@ ul{
   width: 50px;
 } */
 
-.footer-1 ul li{
+.footer ul li{
   margin-bottom: 1rem;
 }
 
-.footer-col-1 ul li a{
+.footer-col ul li a{
   font-size: 1.1rem;
   text-transform: capitalize;
   color: #666;
@@ -681,19 +681,39 @@ ul{
 .final-footer .footer-icon{
   padding: 0 12rem;
 }
-
-.final-footer .footer-icon a i{
-  padding: 1.2rem 0.5rem;
+.final-footer .footer-icon .linkedin{
+  background-color: #000;
+}
+.final-footer .footer-icon a{
+  padding: 0 0.5rem;
   text-decoration: none;
-  color: #333;
-  /* background-color: #333; */
 }
 
-.final-footer .copyright-footer{
-  padding: 1rem 0;
-  color: white;
-  font-size: 1rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -745,9 +765,9 @@ header nav{
   }
 
   header img{
-    width: 15 rem;
+    width: 20rem;
     margin-left: 22rem;
-    /* background-color: lightsalmon; */
+    background-color: lightsalmon;
   }
 
 
@@ -757,7 +777,7 @@ header nav{
     width: 54rem;
     padding: 0;
     margin-top: 8rem;
-    /* background-color: lightskyblue; */
+    background-color: lightskyblue;
     /* grid-template-rows: 1fr 1fr; */
   }
 

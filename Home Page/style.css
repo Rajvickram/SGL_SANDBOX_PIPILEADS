@@ -17,6 +17,7 @@ body {
 header {
   /* width: 100%; */
   width: 75rem;
+  /* height: 12vh; */
   margin-left: 22rem;
   display: flex;
   justify-content: space-evenly;
@@ -696,26 +697,6 @@ ul{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 header nav{
   margin-left: 15rem;
 }
@@ -727,169 +708,224 @@ header nav{
   
 }
 
-/* Media Queries Starting Line */
 
 
 @media only screen and (max-width: 770px) {
-  body{
-    width: 65rem;
-    background-color: violet;
-    /* border: 1px solid; */
-  }
 
   header{
-    /* padding: 0; */
-    margin-left: 1rem;
-    /* border: 1px solid; */
-    width: 20rem;
+    /* background-color: yellow; */
+    width: 92rem;
+    height: 5rem;
+    margin-left: 0;
   }
 
   header img{
-    width: 15 rem;
-    margin-left: 22rem;
-    /* background-color: lightsalmon; */
+    /* background-color: gray; */
+    width: 10rem;
+    margin-left: -17rem;
   }
 
+  header .nav-bar{
+    /* background-color: green; */
+    width: 5rem;
+    height: 2rem;
+    margin-left: 35rem;
+  }
+}
 
+@media only screen and (max-width: 426px) {
+  header {
+    /* background-color: red; */
+    width: 92rem;
+    height: 15rem;
+  }
 
-  /* heading section in Rocket Picture Grid Template */
-  .First-section-content1{
-    width: 54rem;
-    padding: 0;
-    margin-top: 8rem;
+  header img{
+    width: 30rem;
+    /* height: 5rem; */
+    /* margin-top: 15rem; */
+    margin-left: -25rem;
+  }
+
+  header .nav-bar{
+    margin-left: 0rem;
+    width: 5rem;
+    height: 5rem;
+    /* background-color: brown; */
+  }
+
+  .nav-bar button{
+    background-color: #0e75b7;
+    width: 15rem;
+    height: 8rem;
+    font-size: 5rem;
+    border-radius: 0.8rem;
+  }
+
+  #navbarNav ul{
     /* background-color: lightskyblue; */
-    /* grid-template-rows: 1fr 1fr; */
+    font-size: 3rem;
+  }
+  
+  .First-section-content1{
+    /* background-color: royalblue; */
+    width: 92rem;
+    margin-top: 50rem;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .First-section-content1 .b2b{
-    width: 20rem;
-    margin-left: 15rem;
+    background-color: yellowgreen;
+    width: 82rem;
+    height: 8rem;
     font-size: 2rem;
-    /* background-color: violet; */
   }
+
 
   .First-section-content1 .para{
-    margin-left: 15rem;
-    width: 25rem;
+    background-color: lightseagreen;
+    width: 75rem;
+    height: 20rem;
+    margin-top: 10rem;
+    font-size: 4rem;
+    margin-left: 8rem;
+    line-height: 5rem;
+    align-items: center;
   }
 
-  .First-section-content1 .ex-watch-file{
+  .ex-watch-file{
     flex-direction: column;
+    margin-top: 10rem;
   }
 
-  .ex-watch-file .flex1{
-    margin-left: 15rem;
+  .flex1{}
+
+
+/* Right Panel Image Starting */
+  .right-panel{
+    /* background-color: lightgrey; */
+    width: 65rem;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    align-items: center;
   }
 
-  .ex-watch-file .flex2{
-    margin-top: 2rem;
-    margin-left: 15rem;
+  .right-panel img{
+    width: 85rem;
   }
-
-  .First-section-content1 .right-panel{
-    margin-top: 25rem;
-    margin-left: -18rem;
-  }
-
-
-  /* Pricing Section Like Global Repository in GIF Demo img */
 
   .second-content1{
-    width: 54rem;
-    margin-top: 2rem;
     background-color: #f2f7fd;
+    width: 92rem;
+    height: 65rem;
   }
 
-  .global-para1{
-    width: 45rem;
-    margin-left: 10rem;
-    font-size: 3rem;
+  .second-content1 .global-para1{
+    /* background-color: goldenrod; */
+    width: 70rem;
+    height: 15rem;
+    font-size: 5rem;
+    margin-left: 14rem;
+    line-height: 7rem;
+  }
+
+  .second-content1 .pipileads-para1{
+    /* background-color: lightsalmon; */
+    margin-top: 2rem;
+    width: 85rem;
+    height: 13rem;
+    text-align: center;
+    font-size: 3.5rem;
     line-height: 4rem;
-    /* background-color: red; */
+    margin-left: 3rem;
   }
 
-  .pipileads-para1{
-    width: 55rem;
-    font-size: 2.5rem;
-    line-height: 3rem;
-    margin-left: 5rem;
+  .second-content1 .chrome-para1{
+    /* background-color: lime; */
+    width: 75rem;
+    font-size: 5rem;
+    margin-left: 12rem;
   }
 
-  .chrome-para1{
-    width: 45rem;
-    font-size: 4rem;
-    margin-left: 10rem;
+  .second-content1 .gif-img{
+    /* background-color: lightyellow; */
+    width: 88rem;
+    margin-left: 2rem;
   }
 
-  .gif-img{
-    margin-left: 8rem;
-    width: 15rem;
+  .second-content1 .gif-img img{
+    width: 88rem;
   }
 
   .third-content1{
-    width: 45%;
-    margin-top: 25rem;
+    /* background-color: lightcoral; */
+    margin-top: 35rem;
+    width: 92rem;
   }
 
-  .build-para1{
-    margin-left: 0;
-
+  .third-content1 .build-para1{
+    /* background-color: yellowgreen; */
+    width: 70rem;
+    height: 12rem;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 6rem;
+    margin-left: 10rem;
   }
 
-  .pipileads-para2{
-    width: 75%;
-    margin-left: 0;
+  .third-content1 .pipileads-para2{
+    /* background-color: yellow; */
+    margin-top: 2rem;
+    width: 85rem;
+    height: 13rem;
+    text-align: center;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin-left: 3rem;
   }
 
   .flex-content1{
-    margin-top: 5rem;
+    background-color: cornflowerblue;
     flex-direction: column;
+    width: 92rem;
+    height: 75rem;
+    align-items: center;
+    margin-left: 0;    
   }
 
   .list1{
-    flex-direction: column;
-    width: 75%;
+    background-color: chocolate;
+    width: 70rem;
+    height: 55rem;
   }
 
-  /* .email-para{
-
-  } */
-
-  .flex-content2{
-    flex-direction: column;
-  }
-
-  .fourth-content1{
-    width: 54rem;
-  }
-  .email-finder-para{
-    margin-left: 2rem;
-  }
-
-  .find-verified-para{
-    margin-left: 2rem;
-  }
-
-  .demo-img{
-    margin-left: 2rem;
-  }
-
-  .fifth-content{
+  .list1 img{
     width: 25rem;
-    margin-left: 1rem;
+    height: 25rem;
   }
 
-footer .footer-col .footer-col1{
-  flex-direction: row;
+  .list1 .email-para{
+    background-color: yellow;
+    width: 25rem;
+    height: 8rem;
+    font-size: 3rem;
+  }
+
+  .list1 .find-para{
+    background-color: red;
+    width: 65rem;
+    height: 9rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .list1 .ouremail-para{
+    background-color: cornsilk;
+    width: 55rem;
+    height: 20rem;
+    font-size: 2rem;
+  }
 }
-
-  .final-footer{
-    width: 25rem;
-  }
-
-  .final-footer .footer-img{
-    margin-left: 2rem;
-  }
-
-  .final-footer .copyright{
-    margin-left: 2rem;

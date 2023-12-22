@@ -601,100 +601,6 @@ button {
 
 /* Footer Tag Staeting Line */
 
-.container-1{
-  max-width: 55%;
-  background-color: red;
-  margin: auto;
-}
-
-.row-1{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-ul{
-  list-style-type: none;
-}
-
-.footer-1{
-  background-color: #000;
-  padding: 2rem 0;
-  margin-top: 5rem;
-}
-
-.footer-col-1{
-  width: 25%;
-  padding: 0 1rem;
-}
-
-.footer-col-1 h4{
-  font-size: 1.2rem;
-  color: #fff;
-  text-transform: capitalize;
-  margin-bottom: 3rem;
-  font-family: "Inter", sans-serif;
-  position: relative;
-}
-
-/* .footer-col h4::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -10px;
-  background-color: #666;
-  height: 2px;
-  box-sizing: border-box;
-  width: 50px;
-} */
-
-.footer-1 ul li{
-  margin-bottom: 1rem;
-}
-
-.footer-col-1 ul li a{
-  font-size: 1.1rem;
-  text-transform: capitalize;
-  color: #666;
-  text-decoration: none;
-  font-weight: 600;
-  /* color: #bbb; */
-  display: block;
-}
-
-.footer-line{
-  max-width: 54%;
-  border: 1px solid #1E1D1D;
-  margin: auto;
-}
-
-.final-footer{
-  max-width: 65rem;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem 0;
-}
-
-.final-footer .footer-img a img{
-  width: 6rem;
-}
-
-.final-footer .footer-icon{
-  padding: 0 12rem;
-}
-
-.final-footer .footer-icon a i{
-  padding: 1.2rem 0.5rem;
-  text-decoration: none;
-  color: #333;
-  /* background-color: #333; */
-}
-
-.final-footer .copyright-footer{
-  padding: 1rem 0;
-  color: white;
-  font-size: 1rem;
-}
 
 
 header nav{
@@ -772,28 +678,30 @@ header nav{
     width: 92rem;
     margin-top: 50rem;
     margin-left: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+    padding: 2rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 89rem;
   }
 
   .First-section-content1 .b2b{
     background-color: yellowgreen;
-    width: 82rem;
+    width: 35rem;
     height: 8rem;
-    font-size: 2rem;
+    font-size: 3rem;
+    margin-top: 2rem;
   }
 
 
   .First-section-content1 .para{
-    background-color: lightseagreen;
-    width: 75rem;
-    height: 20rem;
+    /* background-color: lightseagreen; */
+    width: 85rem;
+    height: 15rem;
     margin-top: 10rem;
     font-size: 4rem;
-    margin-left: 8rem;
+    margin-left: 0;
     line-height: 5rem;
-    align-items: center;
   }
 
   .ex-watch-file{
@@ -801,7 +709,50 @@ header nav{
     margin-top: 10rem;
   }
 
-  .flex1{}
+  .ex-watch-file .flex1{
+    background-color: #2b7de9;
+    width: 55rem;
+    height: 13rem;
+    margin-left: 20rem;
+    border-radius: 1rem;
+  }
+
+  .ex-watch-file .flex1 img{
+    /* background-color: fuchsia; */
+    width: 8rem;
+  }
+
+  .ex-watch-file .text1{
+    /* background-color: sienna; */
+    width: 25rem;
+    height: 6rem;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+  }
+
+  .ex-watch-file .flex2{
+    background-color: #f2f7fd;
+    width: 55rem;
+    height: 13rem;
+    margin-left: 20rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    border: 1px solid #f2f7fd;
+  }
+
+  .ex-watch-file .flex2 img{
+    /* background-color: fuchsia; */
+    width: 8rem;
+  }
+
+  .ex-watch-file .text2{
+    /* background-color: sienna; */
+    width: 25rem;
+    height: 6rem;
+    font-size: 3rem;
+    margin-top: 5rem;
+  }
 
 
 /* Right Panel Image Starting */
@@ -840,7 +791,7 @@ header nav{
     text-align: center;
     font-size: 3.5rem;
     line-height: 4rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .second-content1 .chrome-para1{
@@ -869,11 +820,11 @@ header nav{
   .third-content1 .build-para1{
     /* background-color: yellowgreen; */
     width: 70rem;
-    height: 12rem;
+    height: 13rem;
     text-align: center;
     font-size: 5rem;
     line-height: 6rem;
-    margin-left: 10rem;
+    margin-left: 13rem;
   }
 
   .third-content1 .pipileads-para2{
@@ -884,22 +835,22 @@ header nav{
     text-align: center;
     font-size: 3.5rem;
     line-height: 4rem;
-    margin-left: 3rem;
+    margin-left: 5rem;
   }
 
   .flex-content1{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     flex-direction: column;
     width: 92rem;
-    height: 75rem;
+    height: 92rem;
     align-items: center;
     margin-left: 0;    
   }
 
   .list1{
-    background-color: chocolate;
+    /* background-color: chocolate; */
     width: 70rem;
-    height: 55rem;
+    height: 70rem;
   }
 
   .list1 img{
@@ -908,14 +859,14 @@ header nav{
   }
 
   .list1 .email-para{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 25rem;
     height: 8rem;
     font-size: 3rem;
   }
 
   .list1 .find-para{
-    background-color: red;
+    /* background-color: red; */
     width: 65rem;
     height: 9rem;
     font-size: 3rem;
@@ -923,9 +874,280 @@ header nav{
   }
 
   .list1 .ouremail-para{
-    background-color: cornsilk;
-    width: 55rem;
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 78rem;
     height: 20rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+
+  .list2{
+    /* background-color: pink; */
+    width: 70rem;
+    height: 70rem;
+  }
+
+  .list2 img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .list2 .email-para1{
+    /* background-color: yellow; */
+    width: 25rem;
+    height: 8rem;
+    font-size: 3rem;
+  }
+
+  .list2 .ensure-para{
+    /* background-color: red; */
+    width: 65rem;
+    height: 9rem;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  .list2 .upload-para{
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 78rem;
+    height: 20rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+  }
+
+  .list3{
+    /* background-color: pink; */
+    width: 70rem;
+    height: 70rem;
+  }
+
+  .list3 img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .list3 .team-para{
+    /* background-color: yellow; */
+    width: 40rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-left: 3.5rem;
+  }
+
+  .list3 .seamlessly-para{
+    /* background-color: red; */
+    width: 80rem;
+    height: 9rem;
+    font-size: 3.1rem;
+    line-height: 4rem;
+  }
+
+  .list3 .credits-para{
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 75rem;
+    height: 30rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-left: 2rem;
+  }
+
+  
+
+  .flex-content2{
+    /* background-color: cornflowerblue; */
+    width: 92rem;
+    height: 92rem;
+    margin-top: 120rem;
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+
+  .list4{
+    /* background-color: pink; */
+    width: 70rem;
+    height: 70rem;
+    margin-left: 10rem;
+  }
+
+  .list4 img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .list4 .social-para{
+    /* background-color: yellow; */
+    width: 40rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-left: 3.5rem;
+  }
+
+  .list4 .findverified-para{
+    /* background-color: red; */
+    width: 80rem;
+    height: 9rem;
+    font-size: 3.1rem;
+    line-height: 4rem;
+    margin-left: -2rem;
+  }
+
+  .list4 .youcan-para{
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 75rem;
+    height: 30rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-left: -2rem;
+  }
+
+  .list5{
+    /* background-color: pink; */
+    width: 70rem;
+    height: 70rem;
+    margin-left: 10rem;
+  }
+
+  .list5 img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .list5 .prospect-para{
+    /* background-color: yellow; */
+    width: 40rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-left: 3.5rem;
+  }
+
+  .list5 .identifier-para{
+    /* background-color: red; */
+    width: 80rem;
+    height: 9rem;
+    font-size: 3.1rem;
+    line-height: 4rem;
+  }
+
+  .list5 .imperative-para{
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 75rem;
+    height: 30rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-left: -2rem;
+  }
+
+  .list6{
+    /* background-color: pink; */
+    width: 70rem;
+    height: 70rem;
+    margin-top: 5rem;
+    margin-left: 10rem;
+  }
+
+  .list6 img{
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .list6 .domain-para{
+    /* background-color: yellow; */
+    width: 40rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-left: 3.5rem;
+  }
+
+  .list6 .findany-para{
+    /* background-color: red; */
+    width: 45rem;
+    height: 9rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    margin-left: 4rem;
+  }
+
+  .list6 .userour-para{
+    /* background-color: cornsilk; */
+    margin-top: 2rem;
+    width: 75rem;
+    height: 30rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    margin-left: -2rem;
+  }
+
+
+  .fourth-content1{
+    margin-top: 250rem;
+    background-color: #f2f7fd;
+    width: 92rem;
+    height: 30rem;
+  }
+
+  .fourth-content1 .email-finder-para{
+    /* background-color: goldenrod; */
+    width: 35rem;
+    height: 8rem;
+    font-size: 5rem;
+    margin-left: 32rem;
+  }
+
+  .find-verified-para{
+    /* background-color: violet; */
+    width: 55rem;
+    height: 10rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-left: 22rem;
+  }
+
+  .fourth-content1 .demo-img{
+    /* background-color: rosybrown; */
+    width: 87rem;
+    margin-left: 0;
+  }
+
+  .fourth-content1 img{
+    width: 88rem;
+    height: 55rem;
+    margin-left: 3rem;
+  }
+
+
+  .fifth-content{
+    background-color: #1981b8;
+    margin-top: 60rem;
+    width: 90rem;
+    height: 25rem;
+    margin-left: 1rem;
+    border-radius: 2rem;
+  }
+
+  .fifth-content .start-para{
+    /* background-color: rebeccapurple; */
+    margin-top: 2rem;
+    width: 90rem;
+    height: 6rem;
+    font-size: 5rem;
+    align-items: normal;
+    margin-left: -8rem;
+  }
+
+  .fifth-content button{
+    background-color: white;
+    width: 40rem;
+    height: 7rem;
+    font-size: 3rem;
+    color: #0073b0;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
   }
 }

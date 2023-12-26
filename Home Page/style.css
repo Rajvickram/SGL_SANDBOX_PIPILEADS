@@ -686,7 +686,7 @@ header nav{
   }
 
   .First-section-content1 .b2b{
-    background-color: yellowgreen;
+    /* background-color: yellowgreen; */
     width: 35rem;
     height: 8rem;
     font-size: 3rem;

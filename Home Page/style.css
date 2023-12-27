@@ -551,11 +551,11 @@ button {
   height: 20vh;
   margin-left: 32rem;
   border-radius: 0.5rem;
-  background: url(/Images/bg-12.png);
-  background-position: center;
+  /* background: url(/Images/bg-12.png); */
+  /* background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-size: cover; */
   background-color: #1981b8;
 }
 
@@ -584,22 +584,104 @@ button {
 }
 
 
-.final-part{
-    width: 98vw;
-    display: flex;
-    height: 23rem;
-    margin-top: 7rem;
+/* Footer CSS --- Starting Section   :    */
+
+.footer1{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  background: #000;
 }
 
-.divwork{
-    display: flex;
+.footer2{
+  width: 100%;
+  max-width: 1000px;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
 }
 
-.divwork a{
-    flex-direction: row;
+.footer2 .footer-item1 h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #ccc;
 }
 
-/* Footer Tag Staeting Line */
+.footer2 .footer-item2 h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #ccc;
+}
+
+.footer2 .footer-item3 h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #ccc;
+}
+
+.footer2 .footer-item4 h3{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #ccc;
+}
+
+.footer-item1{
+  line-height: 1.8rem;
+  color: #666;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 2rem;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  background-color: rgb(229, 21, 191);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -676,21 +758,21 @@ header nav{
   .First-section-content1{
     /* background-color: royalblue; */
     width: 92rem;
-    margin-top: 50rem;
+    margin-top: 10rem;
     margin-left: 0;
     padding: 2rem;
-    /* display: flex; */
-    /* flex-direction: column; */
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 89rem;
+    display: flex;
+    flex-direction: column;
+    /* grid-template-rows: 1fr 1fr;
+    grid-template-columns: 89rem; */
   }
 
   .First-section-content1 .b2b{
     /* background-color: yellowgreen; */
-    width: 35rem;
-    height: 8rem;
-    font-size: 3rem;
+    width: 55rem;
+    height: 5rem;
     margin-top: 2rem;
+    text-align: center;
   }
 
 
@@ -699,9 +781,10 @@ header nav{
     width: 85rem;
     height: 15rem;
     margin-top: 10rem;
-    font-size: 4rem;
+    font-size: 4.5rem;
     margin-left: 0;
     line-height: 5rem;
+    text-align: center; 
   }
 
   .ex-watch-file{
@@ -1150,4 +1233,6 @@ header nav{
     border-radius: 1rem;
     margin-left: 2rem;
   }
+
+
 }

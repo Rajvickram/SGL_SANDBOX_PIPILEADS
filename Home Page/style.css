@@ -586,75 +586,104 @@ button {
 
 /* Footer CSS --- Starting Section   :    */
 
-.footer1{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin-top: 0.5rem;
-  background: #000;
+.container1{
+  max-width: 1170px;
+  /* background-color: red; */
+  margin: auto;
+  
 }
 
-.footer2{
-  width: 100%;
-  max-width: 1000px;
-  padding-left: 0.2rem;
-  padding-right: 0.2rem;
-  margin: 0 auto;
+.row1{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  box-sizing: border-box;
+  flex-wrap: wrap;
 }
 
-.footer2 .footer-item1 h3{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #ccc;
-}
-
-.footer2 .footer-item2 h3{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #ccc;
-}
-
-.footer2 .footer-item3 h3{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #ccc;
-}
-
-.footer2 .footer-item4 h3{
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
-  color: #ccc;
-}
-
-.footer-item1{
-  line-height: 1.8rem;
-  color: #666;
+.ul-tag{
   list-style-type: none;
-  padding-left: 0;
-  margin-top: 2rem;
+}
+
+.ul-tag li a{
+  /* background-color: #fff; */
+  margin-left: -2rem;
+}
+
+.footer1{
+  background-color: #000;
+  padding: 30px 0;
+  margin-top: 8rem;
+}
+
+.footer-col1{
+  width: 25%;
+  padding: 0 5rem;
+  /* background-color: #fff; */
+}
+
+.footer-col1 h4{
+  color: #ccc;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 2rem;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 0.8rem;
-  background-color: rgb(229, 21, 191);
+  line-height: 1.rem;
+}
+
+.footer-col1 ul li{
+  margin-bottom: 0.8rem;
+}
+
+.footer-col1 ul li a{
+  text-decoration: none;
+  color: #666;
+}
+
+.hr-line{
+  width: 100%;
+  max-width: 1015px;
+  border: 1px solid #1e1d1d;
+  margin: 0 auto;
+}
+
+.final-footer1{
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-evenly;
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 0.8rem;
 }
 
 
+.final-footer1 .social-link1 .final-ul-tag{
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  /* background-color: #fff; */
+}
+
+.final-footer1 .final-logo1 img{
+  margin-left: -6rem;
+}
+
+.final-ul-tag li a i{
+  color: #666;
+  width: 2rem;
+}
+
+.copyright1{
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 0.8rem;
+  color: #666;
+}
+
+.final-footer1 .social-link1 .final-ul-tag li{
+  margin-left: 0.5rem;
+}
 
 
 
@@ -1234,5 +1263,114 @@ header nav{
     margin-left: 2rem;
   }
 
+  .footer1{
+    /* background-color: sandybrown; */
+    width: 90rem;
+    height: 93rem;
+  }
 
+  .container1{
+    width: 25rem;
+    /* background-color: white; */
+    margin-left: 0;
+  }
+
+  .row1 .footer-col1 .pro{
+    font-size: 4rem;
+    margin-left: 7rem;
+  }
+
+  .row1 .footer-col1 .sup{
+    margin-left: 40rem;
+    font-size: 4rem;
+  }
+
+  .footer-col1 #footer-tag1{
+    /* background-color: yellow; */
+    width: 25rem;
+    height: 22rem;
+    margin-left: 7rem;
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+
+  .footer-col1 #ul-tag-1{
+    /* background-color: greenyellow; */
+    width: 30rem;
+    height: 22rem;
+    margin-left: 40rem;
+    font-size: 3rem;
+  }
+
+  .row1 .footer-col1 .le{
+    margin-left: 7rem;
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+
+  .row1 .footer-col1 .pip{
+    margin-left: 40rem;
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+
+  .footer-col1 #ul-tag-2{
+    /* background-color: floralwhite; */
+    width: 30rem;
+    height: 22rem;
+    margin-left: 7rem;
+    font-size: 3rem;
+  }
+
+  .footer-col1 #ul-tag-3{
+    /* background-color: fuchsia; */
+    width: 30rem;
+    height: 22rem;
+    margin-left: 40rem;
+    font-size: 3rem;
+  }
+
+  .hr-line{
+    width: 90rem;
+    max-width: 90rem;
+    margin-left: 0;
+    border: 1px solid #777;
+  }
+
+  .final-footer1{
+    flex-direction: column;
+  }
+
+  .final-footer1 .final-logo1 a img{
+    width: 20rem;
+    margin-left: 25rem;
+  }
+
+  .final-footer1 .social-link1 .final-ul-tag{
+    /* background-color: salmon; */
+    width: 50rem;
+    height: 6rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+  }
+
+  .social-link1 .final-ul-tag li a img{
+    width: 6rem;
+  }
+
+  .social-link1 .final-ul-tag li .linkedin-icon{
+    width: 6rem;
+  }
+
+  .copyright1{
+    /* background-color: seashell; */
+    width: 65rem;
+    height: 5rem;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 4rem;
+    color: #666;
+    margin-top: 4rem;
+  }
 }

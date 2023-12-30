@@ -706,33 +706,627 @@ header nav{
 /* RESPONSIVE BUTTON FIRST MAX-WIDTH :- 770PX */
 
 
-
-@media only screen and (max-width: 770px) {
-
+@media only screen and (max-width: 768px){
   header{
     /* background-color: yellow; */
-    width: 92rem;
-    height: 5rem;
     margin-left: 0;
+    width: 75rem;
+    height: 7rem;
   }
 
   header img{
-    /* background-color: gray; */
-    width: 18rem;
-    margin-left: -17rem;
-    margin-top: 4rem;
+    margin-left: -23rem;
+    width: 16rem;
   }
 
   header .nav-bar{
     /* background-color: green; */
-    width: 5rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .nav-bar button{
+    /* background-color: red; */
+  }
+  
+
+  /* First Section Content 1----- */
+
+
+  .First-section-content1 {
+    /* background-color: brown; */
+    width: 75rem;
+    height: 25rem;
+    padding: 0;
+    margin-top: 5rem;
+  }
+
+  .First-section-content1 .b2b h2{
+    /* background-color: sandybrown; */
+    width: 40rem;
+    height: 9rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    color: #223260;
+  }
+
+  .First-section-content1 .para{
+    /* background-color: skyblue; */
+    width: 48rem;
+    height: 5rem;
+    margin-top: 1.8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #666;
+  }
+
+  .First-section-content1 .ex-watch-file{
+    /* background-color: turquoise; */
+    width: 46rem;
+    height: 6rem;
+  }
+
+  .First-section-content1 .ex-watch-file .flex1{
+    background-color: #2b7de9;
+    width: 22rem;
+    height: 5.5rem;
+  }
+
+  .First-section-content1 .ex-watch-file .flex1 img{
+    /* background-color: yellow; */
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+  }
+
+  .First-section-content1 .ex-watch-file .text1{
+    /* background-color: yellow; */
+    width: 13rem;
+    height: 4rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fff;
+    margin-left: 2rem;
+  }
+
+  .First-section-content1 .ex-watch-file .flex2{
+    background-color: #fff;
+    width: 22rem;
+    height: 5.5rem;
+  }
+
+  .First-section-content1 .ex-watch-file .flex2 img{
+    /* background-color: yellow; */
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 1rem;
+  }
+
+  .First-section-content1 .ex-watch-file .text2{
+    /* background-color: yellow; */
+    width: 13rem;
     height: 2rem;
-    margin-left: 35rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #000;
+
+  }
+
+  .First-section-content1 .right-panel{
+    /* background-color: fuchsia; */
+    width: 25rem;
+    height: 20rem;
+    margin-left: 12rem;
+  }
+
+  .First-section-content1 .right-panel img{
+    margin-top: 2rem;
+  }
+
+
+
+  /* Second Section Content 2--------- */
+
+
+  .second-content1{
+    background-color: #f2f7fd;
+    width: 75rem;
+    height: 50rem;
+    margin-top: 8rem;
+  }
+
+  .second-content1 .global-para1{
+    /* background-color: green; */
+    width: 50rem;
+    height: 11rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 2.8rem;
+    padding-top: 5rem;
+    text-align: center;
+    color: #223260;
+    margin-left: 15rem;
+  }
+
+  .second-content1 .pipileads-para1{
+    /* background-color: yellow; */
+    width: 60rem;
+    height: 7rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
+    margin-left: 9rem;
+  }
+
+  .second-content1 .chrome-para1{
+    /* background-color: darkgreen; */
+    width: 30rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #223260;
+    margin-top: 2rem;
+    margin-left: 23rem;
+  }
+
+  .second-content1 .gif-img{
+    /* background-color: rebeccapurple; */
+    width: 75rem;
+    height: 35rem;
+    margin-left: 0;
+  }
+
+  .second-content1 .gif-img img{
+    width: 72rem;
+    height: 35rem;
+    margin-left: 1rem;
+  }
+
+
+
+
+  /* Third Section Content------------------ */
+
+
+
+  .third-content1{
+    /* background-color: aquamarine; */
+    width: 75rem;
+    height: 65rem;
+    margin-top: 22rem;
+  }
+
+  .third-content1 .build-para1{
+    /* background-color: rosybrown; */
+    width: 30rem;
+    height: 8rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    padding-top: 5rem;
+    text-align: center;
+    color: #223260;
+    margin: 0 auto;
+  }
+
+  .third-content1 .pipileads-para2{
+    /* background-color: forestgreen; */
+    width: 45rem;
+    height: 6rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #666;
+    margin: 0 auto;
+  }
+
+  .flex-content1{
+    /* background-color: chartreuse; */
+    width: 75rem;
+    height: 54rem;
+    margin-left: 0;
+  }
+
+  .flex-content1 .list1{
+    /* background-color: skyblue; */
+    width: 10rem;
+    height: 50rem;
+    margin-left: 14rem;
+  }
+
+  .flex-content1 .list1 .email-para{
+    width: 14rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #223260;
+  }
+
+  .flex-content1 .list1 .find-para{
+    width: 15rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    color: #666;
+  }
+
+  .flex-content1 .list1 .ouremail-para{
+    width: 17rem;
+    height: 22rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #666;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list1 .img img{
+    width: 18rem;
+  }
+
+  .flex-content1 .list2{
+    /* background-color: tomato; */
+    width: 13rem;
+    height: 50rem;
+    margin-left: 7rem;
+    margin-left: 6rem;
+  }
+
+  .flex-content1 .list2 .email-finder-para{
+    /* background-color: red; */
+    width: 14rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #223260;
+    margin-top: 2.8rem;
+  }
+
+  .flex-content1 .list2 .ensure-para{
+    /* background-color: yellow; */
+    width: 15rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    color: #666;
+    margin-top: 1.5rem;
+  }
+
+  .flex-content1 .list2 .upload-para{
+    width: 17rem;
+    height: 22rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+
+  .flex-content1 .list2 .img2 img{
+    width: 18rem;
+  }
+
+  .flex-content1 .list3{
+    /* background-color: lightsalmon;/ */
+    width: 13rem;
+    height: 50rem;
+    margin-left: 4rem;
+  }
+
+  .flex-content1 .list3 .team-para{
+    /* background-color: darkgoldenrod; */
+    width: 20rem;
+    height: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #223260;
+    margin-top: 6rem;
+  }
+
+  .flex-content1 .list3 .seamlessly-para{
+    /* background-color: yellow; */
+    width: 12rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    color: #666;
+    margin-top: 1rem;
+  }
+
+  .flex-content1 .list3 .credits-para{
+    width: 17rem;
+    height: 22rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #666;
+    margin-top: 1.5rem;
+  }
+
+  .flex-content2{
+    /* background-color: violet; */
+    width: 75rem;
+    height: 52rem;
+    margin-left: 0;
+  }
+
+  .flex-content2 .list4{
+    /* background-color: burlywood; */
+    width: 12rem;
+    height: 40rem;
+    margin-left: 12rem;
+  }
+
+  .flex-content2 .list4 .img4 img{
+    width: 18rem;
+  }
+
+  .flex-content2 .social-para{
+    /* background-color: lightblue; */
+    width: 14rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #223260;
+  }
+
+  .flex-content2 .findverified-para{
+    /* background-color: aqua; */
+    width: 15rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    color: #666;
+  }
+
+  .flex-content2 .youcan-para{
+    /* background-color: springgreen; */
+    width: 12rem;
+    height: 22rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #666;
+  }
+
+  .flex-content2 .list5{
+    /* background-color: chartreuse; */
+    width: 12rem;
+    height: 40rem;
+    margin-left: 8rem;
+  }
+
+  .flex-content2 .list5 .img5 img{
+    width: 18rem;
+  }
+
+  .flex-content2 .list5 .prospect-para{
+    /* background-color: aqua; */
+    width: 16rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #223260;
+  }
+
+  .flex-content2 .list5 .identifier-para{
+    /* background-color: orange; */
+    width: 18rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  .flex-content2 .list5 .imperative-para{
+    /* background-color: turquoise; */
+    width: 12rem;
+    height: 23rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #666;
+  }
+
+  .flex-content2 .list6{
+    /* background-color: blue; */
+    width: 12rem;
+    height: 50rem;
+    margin-left: 8rem;
+  }
+
+  .flex-content2 .list6 .img6 img{
+    width: 18rem;
+  }
+
+  .flex-content2 .list6 .domain-para{
+    width: 16rem;
+    height: 5rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #223260;
+  }
+
+  .flex-content2 .list6 .findany-para{
+    width: 17rem;
+    height: 8rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+    color: #666;
+  }
+
+  .flex-content2 .list6 .userour-para{
+    /* background-color: turquoise; */
+    width: 12rem;
+    height: 23rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: #666;
+  }
+
+  /* Fourth Section Content -------------------------- */
+
+
+
+  .fourth-content1{
+    background-color: #f2f7fd;
+    width: 75rem;
+    height: 52rem;
+    margin-top: 45rem;
+  }
+
+  .fourth-content1 .email-finder-para{
+    margin-left: 0;
+    /* background-color: salmon; */
+    width: 14rem;
+    height: 7rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.3rem;
+    line-height: 2.5rem;
+    padding-top: 4.5rem;
+    text-align: center;
+    color: #223260;
+    margin: 0 auto;
+  }
+
+  .fourth-content1 .find-verified-para{
+    margin-left: 0;
+    /* background-color: aquamarine; */
+    width: 42rem;
+    height: 4rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #666;
+    margin: 0 auto;
+    margin-top: 1.4rem;
+  }
+
+  .fourth-content1 .demo-img img{
+    background-color: chartreuse;
+    margin-left: -25rem;
+    width: 60rem;
+    height: 45rem;
     
+  }
+
+  .fifth-content{
+    width: 55rem;
+    height: 12rem;
+  }
+
+  .fifth-content .start-para{
+    /* background-color: rosybrown; */
+    width: 55rem;
+    height: 5rem; 
+  }
+
+  .fifth-content .button-tag button{
+    /* background-color: sandybrown; */
+    margin-top: 0;
+  }
+  
+  .footer1{
+    width: 75rem;
+    height: 20rem;
   }
 }
 
 @media only screen and (max-width: 426px) {
+
   header {
     /* background-color: red; */
     width: 92rem;
@@ -759,31 +1353,32 @@ header nav{
     height: 8rem;
     font-size: 5rem;
     border-radius: 0.8rem;
+    margin-top: -2rem;
+    margin-left: 5rem;
   }
 
   #navbarNav ul{
     /* background-color: lightskyblue; */
     font-size: 3rem;
   }
-  
+
   .First-section-content1{
     /* background-color: royalblue; */
     width: 92rem;
+    height: 65rem;
     margin-top: 8rem;
     margin-left: 0;
     padding: 2rem;
-    display: flex;
-    flex-direction: column;
+    display: block;
     /* grid-template-rows: 1fr 1fr;
     grid-template-columns: 89rem; */
   }
-
   .First-section-content1 .b2b h2{
     /* background-color: yellowgreen; */
-    width: 65rem;
+    width: 70rem;
     height: 35rem;
     margin-top: 2rem;
-    margin-left: 12rem;
+    margin-left: 14rem;
     font-size: 8rem;
     text-align: center;
     line-height: 12.5rem;
@@ -791,98 +1386,70 @@ header nav{
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
 
   }
-
 
   .First-section-content1 .para{
     /* background-color: lightseagreen; */
     width: 70rem;
-    height: 15rem;
+    height: 18rem;
     margin-top: 8rem;
     font-size: 3.5rem;
-    margin-left: 9rem;
+    margin-left: 14rem;
     line-height: 6rem;
     text-align: center; 
     color: #666;
   }
 
   .ex-watch-file{
+    display: flex;
     flex-direction: column;
-    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    width: 99rem;
+    height: 5rem;
+    /* background-color: red; */
+    margin-left: 25rem;
   }
 
   .ex-watch-file .flex1{
-    background-color: #2b7de9;
-    width: 55rem;
-    height: 13rem;
-    margin-left: 20rem;
-    border-radius: 1rem;
-  }
-
-  .ex-watch-file .flex1 img{
-    /* background-color: fuchsia; */
-    width: 8rem;
-  }
-
-  .ex-watch-file .text1{
-    /* background-color: sienna; */
-    width: 25rem;
-    height: 6rem;
-    font-size: 3rem;
-    line-height: 3rem;
-    text-align: center;
-  }
-
-  .ex-watch-file .flex2{
-    background-color: #f2f7fd;
-    width: 55rem;
-    height: 13rem;
-    margin-left: 20rem;
-    border-radius: 1rem;
-    margin-top: 2rem;
-    border: 1px solid #f2f7fd;
-  }
-
-  .ex-watch-file .flex2 img{
-    /* background-color: fuchsia; */
-    width: 8rem;
-  }
-
-  .ex-watch-file .text2{
-    /* background-color: sienna; */
-    width: 25rem;
-    height: 6rem;
-    font-size: 3rem;
-    margin-top: 5rem;
+    background-color: yellow;
+    width: 20rem;
   }
 
 
-/* Right Panel Image Starting */
   .right-panel{
     /* background-color: lightgrey; */
     width: 65rem;
-    margin-top: 8rem;
+    margin-top: 15rem;
     margin-left: 5rem;
     align-items: center;
+    flex-direction: column;
   }
 
   .right-panel img{
-    width: 85rem;
+    width: 90rem;
+    height: 55rem;
+    margin-left: -6rem;
+    flex-direction: column;
   }
+
 
   .second-content1{
     background-color: #f2f7fd;
-    width: 92rem;
-    height: 65rem;
+    width: 99rem;
+    height: 70rem;
+    margin-top: 85rem;
   }
 
   .second-content1 .global-para1{
     /* background-color: goldenrod; */
     width: 70rem;
-    height: 15rem;
+    height: 18rem;
     font-size: 5rem;
-    margin-left: 14rem;
+    margin-left: 16rem;
     line-height: 7rem;
   }
 
@@ -894,36 +1461,38 @@ header nav{
     text-align: center;
     font-size: 3.5rem;
     line-height: 4rem;
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
 
   .second-content1 .chrome-para1{
     /* background-color: lime; */
     width: 75rem;
     font-size: 5rem;
-    margin-left: 12rem;
+    margin-left: 14rem;
   }
 
   .second-content1 .gif-img{
     /* background-color: lightyellow; */
-    width: 88rem;
+    width: 95rem;
     margin-left: 2rem;
   }
 
   .second-content1 .gif-img img{
-    width: 88rem;
+    width: 95rem;
+    height: 55rem;
   }
 
   .third-content1{
     /* background-color: lightcoral; */
     margin-top: 35rem;
-    width: 92rem;
+    width: 99rem;
+    height: 75rem;
   }
 
   .third-content1 .build-para1{
     /* background-color: yellowgreen; */
     width: 70rem;
-    height: 13rem;
+    height: 17rem;
     text-align: center;
     font-size: 5rem;
     line-height: 6rem;
@@ -933,265 +1502,321 @@ header nav{
   .third-content1 .pipileads-para2{
     /* background-color: yellow; */
     margin-top: 2rem;
-    width: 85rem;
-    height: 13rem;
+    width: 95rem;
+    height: 12rem;
     text-align: center;
     font-size: 3.5rem;
     line-height: 4rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
   }
 
   .flex-content1{
     /* background-color: cornflowerblue; */
     flex-direction: column;
-    width: 92rem;
+    width: 99rem;
     height: 92rem;
     align-items: center;
     margin-left: 0;    
   }
 
-  .list1{
-    /* background-color: chocolate; */
-    width: 70rem;
-    height: 70rem;
-  }
-
-  .list1 img{
-    width: 25rem;
-    height: 25rem;
-  }
-
-  .list1 .email-para{
+  .flex-content1 .list1{
     /* background-color: yellow; */
-    width: 25rem;
-    height: 8rem;
-    font-size: 3rem;
-  }
-
-  .list1 .find-para{
-    /* background-color: red; */
-    width: 65rem;
-    height: 9rem;
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-
-  .list1 .ouremail-para{
-    /* background-color: cornsilk; */
-    margin-top: 2rem;
-    width: 78rem;
-    height: 20rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
-  }
-
-  .list2{
-    /* background-color: pink; */
-    width: 70rem;
-    height: 70rem;
-  }
-
-  .list2 img{
-    width: 30rem;
-    height: 30rem;
-  }
-
-  .list2 .email-para1{
-    /* background-color: yellow; */
-    width: 25rem;
-    height: 8rem;
-    font-size: 3rem;
-  }
-
-  .list2 .ensure-para{
-    /* background-color: red; */
-    width: 65rem;
-    height: 9rem;
-    font-size: 3rem;
-    line-height: 4rem;
-  }
-
-  .list2 .upload-para{
-    /* background-color: cornsilk; */
-    margin-top: 2rem;
-    width: 78rem;
-    height: 20rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
-  }
-
-  .list3{
-    /* background-color: pink; */
-    width: 70rem;
-    height: 70rem;
-  }
-
-  .list3 img{
-    width: 30rem;
-    height: 30rem;
-  }
-
-  .list3 .team-para{
-    /* background-color: yellow; */
-    width: 40rem;
-    height: 8rem;
-    font-size: 4rem;
-    margin-left: 3.5rem;
-  }
-
-  .list3 .seamlessly-para{
-    /* background-color: red; */
-    width: 80rem;
-    height: 9rem;
-    font-size: 3.1rem;
-    line-height: 4rem;
-  }
-
-  .list3 .credits-para{
-    /* background-color: cornsilk; */
-    margin-top: 2rem;
-    width: 75rem;
-    height: 30rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
+    width: 55rem;
+    height: 60rem;
     margin-left: 2rem;
   }
 
-  
-
-  .flex-content2{
-    /* background-color: cornflowerblue; */
-    width: 92rem;
-    height: 92rem;
-    margin-top: 120rem;
-    flex-direction: column;
-    margin-left: 0;
-    align-items: center;
-  }
-
-  .list4{
-    /* background-color: pink; */
-    width: 70rem;
-    height: 70rem;
-    margin-left: 10rem;
-  }
-
-  .list4 img{
-    width: 30rem;
-    height: 30rem;
-  }
-
-  .list4 .social-para{
-    /* background-color: yellow; */
+  .flex-content1 .list1 .img{
+    /* background-color: aqua; */
     width: 40rem;
-    height: 8rem;
-    font-size: 4rem;
-    margin-left: 3.5rem;
+    height: 26rem;
   }
 
-  .list4 .findverified-para{
-    /* background-color: red; */
-    width: 80rem;
-    height: 9rem;
-    font-size: 3.1rem;
-    line-height: 4rem;
-    margin-left: -2rem;
-  }
-
-  .list4 .youcan-para{
-    /* background-color: cornsilk; */
-    margin-top: 2rem;
-    width: 75rem;
+  .flex-content1 .list1 .img img{
+    width: 35rem;
     height: 30rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
-    margin-left: -2rem;
-  }
-
-  .list5{
-    /* background-color: pink; */
-    width: 70rem;
-    height: 70rem;
-    margin-left: 10rem;
-  }
-
-  .list5 img{
-    width: 30rem;
-    height: 30rem;
-  }
-
-  .list5 .prospect-para{
-    /* background-color: yellow; */
-    width: 40rem;
-    height: 8rem;
-    font-size: 4rem;
-    margin-left: 3.5rem;
-  }
-
-  .list5 .identifier-para{
-    /* background-color: red; */
-    width: 80rem;
-    height: 9rem;
-    font-size: 3.1rem;
-    line-height: 4rem;
-  }
-
-  .list5 .imperative-para{
-    /* background-color: cornsilk; */
-    margin-top: 2rem;
-    width: 75rem;
-    height: 30rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
-    margin-left: -2rem;
-  }
-
-  .list6{
-    /* background-color: pink; */
-    width: 70rem;
-    height: 70rem;
-    margin-top: 5rem;
-    margin-left: 10rem;
-  }
-
-  .list6 img{
-    width: 30rem;
-    height: 30rem;
-  }
-
-  .list6 .domain-para{
-    /* background-color: yellow; */
-    width: 40rem;
-    height: 8rem;
-    font-size: 4rem;
-    margin-left: 3.5rem;
-  }
-
-  .list6 .findany-para{
-    /* background-color: red; */
-    width: 45rem;
-    height: 9rem;
-    font-size: 2.5rem;
-    line-height: 4rem;
     margin-left: 4rem;
   }
 
-  .list6 .userour-para{
-    /* background-color: cornsilk; */
+  .flex-content1 .list1 .email-para{
+    /* background-color: red; */
+    width: 42rem;
+    height: 15rem;
+    font-size: 4rem;
     margin-top: 2rem;
-    width: 75rem;
+  }
+
+  .flex-content1 .list1 .find-para{
+     /* background-color: rgb(0, 68, 255); */
+     width: 65rem;
+     height: 9rem;
+     font-size: 3rem;
+     line-height: 4rem;
+     margin-top: 2rem;
+  }
+
+  .flex-content1 .list1 .ouremail-para{
+     /* background-color: cornsilk; */
+     margin-top: 2rem;
+     width: 85rem;
+     height: 25rem;
+     font-size: 3.5rem;
+     line-height: 6rem;
+     margin-left: 2rem;
+  }
+
+  .flex-content1 .list2{
+    /* background-color: aquamarine; */
+    width: 55rem;
+    height: 60rem;
+    margin-left: 2rem;
+    margin-top: 25rem;
+  }
+
+  .flex-content1 .list2 .img2{
+    /* background-color: red; */
+    width: 40rem;
+    height: 26rem;
+  }
+
+  .flex-content1 .list2 .img2 img{
+    width: 45rem;
     height: 30rem;
-    font-size: 2.5rem;
-    line-height: 5rem;
-    margin-left: -2rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content1 .list2 .email-para1{
+    /* background-color: yellow; */
+    width: 42rem;
+    height: 15rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list2 .ensure-para{
+    /* background-color: rgb(0, 68, 255); */
+    width: 75rem;
+    height: 10rem;
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list2 .upload-para{
+    /* background-color: cornsilk; */
+    width: 85rem;
+    height: 25rem;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list3{
+    /* background-color: yellow; */
+    margin-top: 30rem;
+    width: 55rem;
+    height: 60rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content1 .list3 .img3{
+    /* background-color: aqua; */
+    width: 40rem;
+    height: 26rem;
+  }
+
+  .flex-content1 .list3 .img3 img{
+    width: 50rem;
+    height: 30rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content1 .list3 .team-para{
+    /* background-color: red; */
+    width: 42rem;
+    height: 8rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list3 .seamlessly-para{
+    /* background-color: rgb(0, 68, 255); */
+    width: 85rem;
+    height: 10rem;
+    font-size: 3.4rem;
+    line-height: 4.5rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content1 .list3 .credits-para{
+    /* background-color: cornsilk; */
+    width: 90rem;
+    height: 25rem;
+    font-size: 3.5rem;
+    line-height: 6rem;
+    margin-left: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  
+  .flex-content2{
+    margin-top: 170rem;
+    /* background-color: cornflowerblue; */
+    width: 99rem;
+    height: 92rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .flex-content2 .list4{
+    /* background-color: yellow; */
+    width: 55rem;
+    height: 60rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list4 .img4{
+    /* background-color: aqua; */
+    width: 40rem;
+    height: 26rem;
+  }
+
+  .flex-content2 .list4 .img4 img{
+    width: 45rem;
+    height: 30rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list4 .social-para{
+    /* background-color: red; */
+    width: 42rem;
+    height: 15rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content2 .list4 .findverified-para{
+     /* background-color: rgb(0, 68, 255); */
+     width: 65rem;
+     height: 9rem;
+     font-size: 3rem;
+     line-height: 4rem;
+     margin-top: 2rem;
+  }
+
+  .flex-content2 .list4 .youcan-para{
+     /* background-color: cornsilk; */
+     margin-top: 2rem;
+     width: 85rem;
+     height: 25rem;
+     font-size: 3.5rem;
+     line-height: 6rem;
+     margin-left: 2rem;
+  }
+
+  .flex-content2 .list5{
+    margin-top: 20rem;
+    /* background-color: yellow; */
+    width: 55rem;
+    height: 60rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list5 .img5{
+    /* background-color: aqua; */
+    width: 40rem;
+    height: 26rem;
+  }
+
+  .flex-content2 .list5 .img5 img{
+    width: 45rem;
+    height: 30rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list5 .prospect-para{
+    /* background-color: red; */
+    width: 42rem;
+    height: 15rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content2 .list5 .identifier-para{
+     /* background-color: rgb(0, 68, 255); */
+     width: 75rem;
+     height: 9rem;
+     font-size: 3rem;
+     line-height: 4rem;
+     text-align: center;
+     margin-top: 2rem;
+  }
+
+  .flex-content2 .list5 .imperative-para{
+     /* background-color: cornsilk; */
+     width: 85rem;
+     height: 25rem;
+     font-size: 3.5rem;
+     line-height: 6rem;
+     margin-left: 2rem;
+     margin-top: 2rem;
+  }
+
+  .flex-content2 .list6{
+    margin-top: 25rem;
+    /* background-color: yellow; */
+    width: 55rem;
+    height: 60rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list6 .img6{
+    /* background-color: aqua; */
+    width: 40rem;
+    height: 26rem;
+  }
+
+  .flex-content2 .list6 .img6 img{
+    width: 45rem;
+    height: 30rem;
+    margin-left: 2rem;
+  }
+
+  .flex-content2 .list6 .domain-para{
+    /* background-color: red; */
+    width: 42rem;
+    height: 15rem;
+    font-size: 4rem;
+    margin-top: 2rem;
+  }
+
+  .flex-content2 .list6 .findany-para{
+     /* background-color: rgb(0, 68, 255); */
+     width: 55rem;
+     height: 9rem;
+     font-size: 3rem;
+     line-height: 4rem;
+     margin-top: 2rem;
+  }
+
+  .flex-content2 .list6 .userour-para{
+     /* background-color: cornsilk; */
+     width: 90rem;
+     height: 25rem;
+     font-size: 3.5rem;
+     line-height: 6rem;
+     margin-left: 2rem;
+     margin-top: 2rem;
   }
 
 
+
   .fourth-content1{
-    margin-top: 250rem;
+    margin-top: 480rem;
     background-color: #f2f7fd;
-    width: 92rem;
-    height: 30rem;
+    width: 99rem;
+    height: 50rem;
   }
 
   .fourth-content1 .email-finder-para{
@@ -1199,84 +1824,98 @@ header nav{
     width: 35rem;
     height: 8rem;
     font-size: 5rem;
-    margin-left: 32rem;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #223260;
   }
 
-  .find-verified-para{
+  .fourth-content1 .find-verified-para{
     /* background-color: violet; */
-    width: 55rem;
-    height: 10rem;
-    font-size: 3rem;
-    line-height: 4rem;
-    margin-left: 22rem;
+    width: 75rem;
+    height: 15rem;
+    font-size: 4rem;
+    line-height: 5.5rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #666;
+    margin-top: 2rem;
   }
 
   .fourth-content1 .demo-img{
     /* background-color: rosybrown; */
-    width: 87rem;
     margin-left: 0;
+    width: 99rem;
+    height: 48rem;
   }
 
-  .fourth-content1 img{
-    width: 88rem;
+  .fourth-content1 .demo-img img{
+    width: 98rem;
     height: 55rem;
-    margin-left: 3rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
   }
-
 
   .fifth-content{
+    margin-top: 55rem;
     background-color: #1981b8;
-    margin-top: 60rem;
-    width: 90rem;
-    height: 25rem;
+    width: 99rem;
+    height: 35rem;
     margin-left: 1rem;
     border-radius: 2rem;
   }
 
   .fifth-content .start-para{
     /* background-color: rebeccapurple; */
-    margin-top: 2rem;
-    width: 90rem;
+    margin-top: 5rem;
+    width: 99rem;
     height: 6rem;
-    font-size: 5rem;
+    font-size: 5.5rem;
     align-items: normal;
-    margin-left: -8rem;
   }
 
+  .fifth-content .button-tag{
+    margin-top: 5rem;
+  }
+
+
   .fifth-content button{
-    background-color: white;
+    /* background-color: white; */
     width: 40rem;
     height: 7rem;
     font-size: 3rem;
     color: #0073b0;
-    margin-top: 4rem;
+    margin-top: rem;
     border-radius: 1rem;
-    margin-left: 2rem;
+    margin-left: 6rem;
   }
 
   .footer1{
     /* background-color: sandybrown; */
-    width: 90rem;
+    width: 99rem;
     height: 93rem;
   }
 
-  .container1{
+  .footer1 .container1{
     width: 25rem;
     /* background-color: white; */
     margin-left: 0;
   }
 
-  .row1 .footer-col1 .pro{
+  .footer1 .row1 .footer-col1 .pro{
     font-size: 4rem;
     margin-left: 7rem;
   }
 
-  .row1 .footer-col1 .sup{
+  .footer1 .row1 .footer-col1 .sup{
     margin-left: 40rem;
     font-size: 4rem;
   }
 
-  .footer-col1 #footer-tag1{
+  .footer1 .footer-col1 #footer-tag1{
     /* background-color: yellow; */
     width: 25rem;
     height: 22rem;
@@ -1286,26 +1925,26 @@ header nav{
   }
 
   .footer-col1 #ul-tag-1{
-    /* background-color: greenyellow; */
-    width: 30rem;
-    height: 22rem;
-    margin-left: 40rem;
-    font-size: 3rem;
+     /* background-color: greenyellow; */
+     width: 30rem;
+     height: 22rem;
+     margin-left: 40rem;
+     font-size: 3rem;
   }
 
-  .row1 .footer-col1 .le{
+  .footer1 .row1 .footer-col1 .le{
     margin-left: 7rem;
     font-size: 4rem;
     margin-top: 5rem;
   }
 
-  .row1 .footer-col1 .pip{
+  .footer1 .row1 .footer-col1 .pip{
     margin-left: 40rem;
     font-size: 4rem;
     margin-top: 5rem;
   }
 
-  .footer-col1 #ul-tag-2{
+  .footer1 #ul-tag-2{
     /* background-color: floralwhite; */
     width: 30rem;
     height: 22rem;
@@ -1321,6 +1960,7 @@ header nav{
     font-size: 3rem;
   }
 
+  
   .hr-line{
     width: 90rem;
     max-width: 90rem;
@@ -1364,4 +2004,7 @@ header nav{
     color: #666;
     margin-top: 4rem;
   }
+
+
+  
 }

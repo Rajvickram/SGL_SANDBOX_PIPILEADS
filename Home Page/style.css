@@ -52,6 +52,14 @@ button {
   border: 0.1rem solid #0073b0;
   text-align: center;
   margin-left: 0.5rem;
+  color: black;
+}
+
+.custom-btn{
+  background-color: white;
+    border: 1px solid #0073B0;
+    color: #0073B0; 
+    color: black;
 }
 
 .First-section-content1 {

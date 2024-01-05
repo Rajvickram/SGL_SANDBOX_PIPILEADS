@@ -15,16 +15,16 @@ body {
 }
 
 header {
-  /* width: 100%; */
-  width: 75rem;
+  width: 100%;
+  /* width: 75rem; */
   /* height: 12vh; */
-  margin-left: 22rem;
+  /* margin-left: 22rem; */
   display: flex;
   justify-content: space-evenly;
   padding: 1.2rem 1.5rem;
   align-items: center;
   /* margin-top: 2rem; */
-  /* background-color: aqua; */
+  background-color: aqua;
 }
 
 .list-content {
@@ -156,7 +156,7 @@ button {
   background-color: #f2f7fd;
   margin-top: 4rem;
   height: 68vh;
-  /* margin-left: 25rem; */
+  /* margin-left: 25rem; */ 
 }
 
 .global-para1 {
